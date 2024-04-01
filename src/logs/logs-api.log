@@ -1,0 +1,40 @@
+[2024-03-12T04:20:59.926Z] info: You are not logged in! Please log in to get access. || undefined undefined
+[2024-03-12T04:29:53.556Z] info: You are not logged in! Please log in to get access. || undefined undefined
+[2024-03-12T04:30:05.230Z] info: notNull Violation: User.roleId cannot be null || undefined undefined
+[2024-03-12T04:30:30.343Z] info: notNull Violation: User.roleId cannot be null || undefined undefined
+[2024-03-12T04:30:56.716Z] info: notNull Violation: User.roleId cannot be null || undefined undefined
+[2024-03-12T04:30:59.051Z] info: notNull Violation: User.roleId cannot be null || undefined undefined
+[2024-03-12T04:30:59.740Z] info: notNull Violation: User.roleId cannot be null || undefined undefined
+[2024-03-12T04:31:00.367Z] info: notNull Violation: User.roleId cannot be null || undefined undefined
+[2024-03-12T04:31:01.200Z] info: notNull Violation: User.roleId cannot be null || undefined undefined
+[2024-03-12T04:32:06.312Z] info: Cannot add or update a child row: a foreign key constraint fails (`genesis`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`roleId`) REFERENCES `roles` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE) || undefined undefined
+[2024-03-12T04:32:23.509Z] info: Cannot add or update a child row: a foreign key constraint fails (`genesis`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`roleId`) REFERENCES `roles` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE) || undefined undefined
+[2024-03-20T23:41:12.645Z] info: Cannot add or update a child row: a foreign key constraint fails (`genesis`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`roleId`) REFERENCES `roles` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE) || undefined undefined
+[2024-03-20T23:44:26.856Z] info: Can't find /favicon.ico on this server! || undefined undefined
+[2024-03-20T23:44:30.399Z] info: Can't find /?vscodeBrowserReqId=1710978265365 on this server! || undefined undefined
+[2024-03-20T23:44:31.939Z] info: Can't find / on this server! || undefined undefined
+[2024-03-20T23:44:37.582Z] info: Can't find / on this server! || undefined undefined
+[2024-03-20T23:44:41.612Z] info: Can't find / on this server! || undefined undefined
+[2024-03-20T23:53:45.913Z] info: You are not logged in! Please log in to get access. || undefined undefined
+[2024-03-21T01:35:47.334Z] info: No estas logueado! Por favor inicia sesión para obtener acceso. || undefined undefined
+[2024-03-21T02:14:50.467Z] info: Rol no encontrado! || undefined undefined
+[2024-03-27T02:57:07.375Z] info: Can't find /api/v1/roles-permissions on this server! || undefined undefined
+[2024-03-27T03:01:55.204Z] info: notNull Violation: RolePermission.role_id cannot be null,
+notNull Violation: RolePermission.permission_id cannot be null || undefined undefined
+[2024-03-27T03:11:44.233Z] info: Validation error || undefined undefined
+[2024-03-31T00:10:07.096Z] info: No se puede encontrar / en este servidor || undefined undefined
+[2024-03-31T00:10:08.025Z] info: No se puede encontrar / en este servidor || undefined undefined
+[2024-03-31T00:10:08.115Z] info: No se puede encontrar /favicon.ico en este servidor || undefined undefined
+[2024-03-31T00:16:37.484Z] info: No se puede encontrar /Usuarios/validar en este servidor || undefined undefined
+[2024-03-31T00:23:35.704Z] info: Unknown column 'Usuario.status' in 'where clause' || undefined undefined
+[2024-03-31T00:36:56.288Z] info: No se puede encontrar /favicon.ico en este servidor || undefined undefined
+[2024-03-31T00:55:34.292Z] info: No se puede encontrar /@vite/client en este servidor || undefined undefined
+[2024-03-31T00:55:34.417Z] info: No se puede encontrar /src/main.jsx?t=1711768682180 en este servidor || undefined undefined
+[2024-03-31T00:55:34.429Z] info: No se puede encontrar /@react-refresh en este servidor || undefined undefined
+[2024-03-31T20:37:17.359Z] info: No se puede encontrar /api/v1/categorias/hijos/1 en este servidor || undefined undefined
+[2024-03-31T20:37:17.374Z] info: No se puede encontrar /api/v1/categorias/hijos/1 en este servidor || undefined undefined
+[2024-03-31T20:37:32.333Z] info: No se puede encontrar /api/v1/categorias/hijos/1 en este servidor || undefined undefined
+[2024-03-31T20:37:32.344Z] info: No se puede encontrar /api/v1/categorias/hijos/1 en este servidor || undefined undefined
+[2024-03-31T20:37:38.321Z] info: No se puede encontrar /api/v1/categorias/hijos/1 en este servidor || undefined undefined
+[2024-03-31T20:37:47.324Z] info: No se puede encontrar /api/v1/categorias/hijos/1 en este servidor || undefined undefined
+[2024-03-31T20:37:47.335Z] info: No se puede encontrar /api/v1/categorias/hijos/1 en este servidor || undefined undefined
