@@ -18,6 +18,7 @@ const Usuario = db.define("Usuario", {
   correo: {
     type: DataTypes.STRING,
     allowNull: false,
+    unique: true,
   },
   contrasena: {
     type: DataTypes.STRING,
@@ -26,6 +27,7 @@ const Usuario = db.define("Usuario", {
   cedula: {
     type: DataTypes.STRING,
     allowNull: false,
+    unique: true,
   },
   id_rol: {
     type: DataTypes.INTEGER,
@@ -34,6 +36,7 @@ const Usuario = db.define("Usuario", {
   },
   estado: {
     type: DataTypes.ENUM("activo", "inactivo"),
+    defaultValue: "activo",
     allowNull: false,
   },
 });
