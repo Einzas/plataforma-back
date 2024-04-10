@@ -69,7 +69,6 @@ exports.crearUsuarioValidacion = [
     .isLength({ min: 8 })
     .withMessage("La contraseña debe tener al menos 8 caracteres!"),
   body("cedula").notEmpty().withMessage("La cédula es requerida!"),
-  body("id_rol").notEmpty().withMessage("El ID del rol es requerido!"),
 
   validField,
 ];
