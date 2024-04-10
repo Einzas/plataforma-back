@@ -27,6 +27,7 @@ exports.signup = catchAsync(async (req, res, next) => {
       nombre: usuario.nombre,
       apellido: usuario.apellido,
       correo: usuario.correo,
+      rol: usuario.id_rol,
     },
     token,
   });
@@ -52,6 +53,7 @@ exports.login = catchAsync(async (req, res, next) => {
       nombre: usuario.nombre,
       apellido: usuario.apellido,
       correo: usuario.correo,
+      rol: usuario.id_rol,
     },
     token,
   });
