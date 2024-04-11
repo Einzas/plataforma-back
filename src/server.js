@@ -22,9 +22,7 @@ db.authenticate()
   });
 initModels();
 
-db.sync({
-  force: true,
-})
+db.sync({ force: false })
   .then(() => {
     console.log("Base de datos sincronizada 😎");
     seedRoles();
