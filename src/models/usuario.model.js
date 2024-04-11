@@ -29,6 +29,10 @@ const Usuario = db.define("Usuario", {
     allowNull: false,
     unique: true,
   },
+  telefono: {
+    type: DataTypes.STRING,
+    allowNull: true,
+  },
   id_rol: {
     type: DataTypes.INTEGER,
     allowNull: false,

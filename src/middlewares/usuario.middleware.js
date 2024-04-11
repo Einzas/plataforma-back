@@ -8,7 +8,7 @@ exports.validUser = catchAsync(async (req, res, next) => {
   const usuario = await Usuario.findOne({
     where: {
       id: id,
-      status: "activo",
+      estado: "activo",
     },
   });
   if (!usuario) {
