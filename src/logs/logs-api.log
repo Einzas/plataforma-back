@@ -40,3 +40,5 @@ notNull Violation: RolePermission.permission_id cannot be null || undefined unde
 [2024-03-31T20:37:47.335Z] info: No se puede encontrar /api/v1/categorias/hijos/1 en este servidor || undefined undefined
 [2024-04-10T01:53:22.282Z] info: Usuario no encontrado || undefined undefined
 [2024-04-10T01:53:40.777Z] info: Usuario no encontrado || undefined undefined
+[2024-04-11T04:36:24.218Z] info: No se puede encontrar /usuarios en este servidor || undefined undefined
+[2024-04-11T04:36:28.097Z] info: Unknown column 'telefono' in 'field list' || undefined undefined

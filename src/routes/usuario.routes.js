@@ -20,7 +20,7 @@ router.post(
 );
 router.use(authMiddleware.protect);
 
-router.get("/", usuarioMiddleware.validUser, usuarioController.obtenerUsuarios);
+router.get("/", usuarioController.obtenerUsuarios);
 
 router
   .route("/:id")
